@@ -10,3 +10,10 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.DS_Store
+.idea/
+.idea/modules.xml
+.idea/Quantic-v2.iml
+.idea/vcs.xml
+composer.lock
+.idea/workspace.xml
