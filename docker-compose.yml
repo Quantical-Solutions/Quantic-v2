@@ -45,6 +45,7 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: quantic
+      MYSQL_USER: qsfred
       MYSQL_ROOT_PASSWORD: qs19891979
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
