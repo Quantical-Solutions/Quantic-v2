@@ -1,4 +1,4 @@
-# Quantic - Industry 2.0 AI Framework
+# Quantic - Industry 2.0 (A.I. Framework)
 
 <i>CI / CD Pipeline badges from Master branch</i>
 
