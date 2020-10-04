@@ -1,10 +1,10 @@
 {
-    "name": "laravel/laravel",
+    "name": "quantic/quantic",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Quantic AI Framework.",
     "keywords": [
         "framework",
-        "laravel"
+        "quantic"
     ],
     "license": "MIT",
     "require": {
