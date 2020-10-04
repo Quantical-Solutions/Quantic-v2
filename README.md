@@ -11,8 +11,20 @@
 Quantic Framework V2
  
 <h2>Components</h2>
+<ul>
+    <li>Laravel 8</li>
+    <li>Php myAdmin</li>
+    <li>React.js</li>
+    <li>React Native</li>
+    <li>Electron</li>
+    <li>Docker</li>
+</ul>
 
-Quantic Framework V2
+Needs : 
+<ul>
+    <li>Composer</li>
+    <li>Node.js</li>
+</ul>
 
 <h2>How to deploy Quantic Solutions</h2>
 
@@ -20,4 +32,4 @@ Quantic Framework V2
 
 <h2>Docker Image</h2>
 
-Quantic Framework V2
+<pre><code>docker pull quanticalsolutions/quanticframework</code></pre>
