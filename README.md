@@ -28,7 +28,7 @@ Needs :
 
 <h2>How to deploy Quantic Solutions</h2>
 
-Quantic Framework V2
+<pre><code>composer require quantic/quantic</code></pre>
 
 <h2>Docker Image</h2>
 
