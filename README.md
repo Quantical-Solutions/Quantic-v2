@@ -6,18 +6,18 @@
 ![Docker Image CI](https://github.com/Quantical-Solutions/Quantic-v2/workflows/Docker%20Image%20CI/badge.svg)
 ![Node.js CI](https://github.com/Quantical-Solutions/Quantic-v2/workflows/Node.js%20CI/badge.svg)
 
-<h2 style="text-align: right;">What is Quantic ?</h2>
+<h2>What is Quantic ?</h2>
 
 Quantic Framework V2
  
-<h2 style="text-align: right;">Components</h2>
+<h2>Components</h2>
 
 Quantic Framework V2
 
-<h2 style="text-align: right;">How to deploy Quantic Solutions</h2>
+<h2>How to deploy Quantic Solutions</h2>
 
 Quantic Framework V2
 
-<h2 style="text-align: right;">Docker Image</h2>
+<h2>Docker Image</h2>
 
 Quantic Framework V2
