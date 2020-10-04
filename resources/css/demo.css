@@ -1,0 +1,416 @@
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sectionH2, .firstSectionH2 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+}
+
+section, #header {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5) inset, 0 -8px 10px rgba(0, 0, 0, 0.5) inset;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+}
+
+section:nth-child(odd) {
+    background-image: linear-gradient(to right, #00004d, #000066, #6600cc, #9900ff, #6600cc, #000066, #00004d);
+}
+
+section:nth-child(odd) .sectionH2 {
+    justify-content: flex-end;
+}
+
+#leftSide {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#title #quanticSVG {
+    width: 100%;
+}
+
+#title #frameWorkSVG {
+    width: 30%;
+    min-width: 200px;
+    margin: 60px 0;
+}
+
+.quanticLogo-1 {
+    fill:#deb672;
+}
+
+.quanticLogo-2 {
+    fill:#cfcece;
+}
+
+.quanticLogo-3 {
+    fill:#969696;
+}
+
+.frameSVG1 {
+    fill:#969696;
+}
+
+nav {
+    margin-top: 10vh;
+}
+
+nav, nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+nav span, nav a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.7);
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    cursor: pointer;
+    transition: all linear 0.15s;
+}
+
+nav span:hover, nav a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#footer img {
+    width: 80%;
+}
+
+#footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#footer li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #3C3C3C;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#footer li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer div:last-of-type {
+    padding: 8px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+#footer div:last-of-type a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all linear 0.15s;
+}
+
+#footer div:last-of-type a:hover {
+    color: #fff;
+}
+
+.paraPrez {
+    font-size: 1.2em;
+    margin: 40px 0;
+    line-height: 1.2em;
+    opacity: 0.8;
+}
+
+.chartsBlocks {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    transition: all linear 0.2s;
+    margin: 5px;
+}
+
+.chartsBlocks:hover {
+    transform: scale(1.05);
+}
+
+.fc .fc-toolbar {
+    flex-wrap: wrap;
+}
+
+table.fc-list-table {
+    width: 100%;
+}
+
+.chartsBlocks:hover .k-chart {
+    background-color: rgba(255, 255, 255, 1)!important;
+}
+
+.k-chart, .k-widget, .k-card {
+    background-color: rgba(255, 255, 255, 0.5)!important;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.2s;
+}
+
+.k-chart-surface svg>g>path:first-of-type {
+    fill: transparent;
+}
+
+#githubBtn {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    transition: all linear 0.15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid #C1C1C1;
+}
+
+#githubBtn:hover {
+    transform: scale(1.05);
+}
+
+#githubBtn img {
+    width: 80%;
+}
+
+#copyDocker {
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#copyDocker span {
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #191919;
+    border: 1px solid #3C3C3C;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    transition: all linear 0.15s;
+    width: max-content;
+}
+
+#copyDocker span:hover {
+    transform: scale(1.05);
+}
+
+#copyDocker code {
+    background-color: #3C3C3C;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7) inset;
+    border: 1px solid #A1A1A1;
+    border-radius: 5px;
+    color: gold;
+    transition: all linear 0.2s;
+    text-align: center;
+    width: calc(100% - 42px);
+    word-break: break-all;
+}
+
+#dockerLeft {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#docker>div:first-of-type {
+    min-height: 300px;
+    margin: 40px 0;
+}
+
+.noHeight {
+    height: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.copied {
+    background-color: darkgreen!important;
+}
+
+#scroll_to_top {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    background-color: transparent;
+}
+
+#scroll_to_top svg {
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    background-color: #6600cc;
+    padding: 10px;
+    cursor: pointer;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    transition: all linear 0.15s;
+}
+
+#scroll_to_top svg {
+    transform: scale(1.1);
+}
+
+#scroll_to_top svg path {
+    fill: #fff;
+}
+
+#dockerLeft {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: calc(100% - 120px);
+    margin: 0 20px;
+}
+
+.demo-app {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.demo-app-main, .demo-app-sidebar {
+    width: calc(48% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #191919;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.demo-app-sidebar-section {
+    width: 100%;
+}
+
+.demo-app-sidebar-section:nth-child(2) {
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.demo-app-sidebar-section h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.demo-app-sidebar-section:last-child li {
+    padding: 10px;
+    background-color: pink;
+    margin: 10px 0;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #00004d, #000066, #6600cc, #9900ff, #6600cc, #000066, #00004d);
+}
+
+.demo-app-sidebar-section:last-child {
+    overflow-y: auto;
+    max-height: 320px;
+}
+
+.fc {
+    width: 100%;
+}
+
+#modalInfo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+#modalInfo h4 {
+    font-family: 'barlow_condensedbold', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #DEB672;
+}
+
+#modalInfo p {
+    margin-left: 5px;
+}
+
+#modalInfo p::before {
+    content: "•";
+    margin-right: 5px;
+    color: #DEB672;
+    font-size: 18px;
+}
+

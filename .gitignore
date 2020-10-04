@@ -17,3 +17,4 @@ yarn-error.log
 .idea/vcs.xml
 composer.lock
 .idea/workspace.xml
+home.blade.php

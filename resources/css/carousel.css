@@ -1,0 +1,122 @@
+.owl-carousel {
+    width: 100%;
+    height: 350px;
+    margin: 40px 0;
+    background-image: linear-gradient(to right, #000, #191919, #2D2D2D, #3C3C3C, #2D2D2D, #191919, #000);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 350px;
+}
+
+.item div {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    border: 1px solid #3C3C3C;
+    width: calc(30% - 40px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    border-left: 1px solid #C1C1C1;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.item h3 {
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+}
+
+.item p {
+    color: #C1C1C1;
+    text-align: center;
+}
+
+.owl-nav {
+    height: 0;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    height: 50px;
+    width: max-content;
+    top: calc(50% - 25px);
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    transition: all linear 0.15s;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    transform: scale(1.2);
+}
+
+.chevrons {
+    width: 30px;
+    height: 30px;
+}
+
+.chevrons path {
+    fill: #6600cc;
+}
+
+.owl-prev {
+    left: 20px;
+}
+
+.owl-next {
+    right: 20px;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-dot {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #FFF!important;
+    border-radius: 20px;
+    margin: 5px;
+    outline: none;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    transition: all linear 0.15s;
+}
+
+.owl-dot:hover {
+    transform: scale(1.2);
+}
+
+.owl-dot:not(.active) {
+    background-color: transparent!important;
+}
+
+.owl-dot.active {
+    background-color: #6600cc!important;
+    transform: scale(1.2);
+}

@@ -11,7 +11,27 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.react('./app/React/app.js', 'public/js/react.js')
+    .js([
+        'resources/js/app.js',
+        'resources/js/carousel.js',
+        'resources/js/script.js'
+    ], 'public/js/all.js')
+    .styles([
+        'resources/css/reset.css',
+        './node_modules/owl.carousel2/dist/assets/owl.carousel.min.css',
+        //'./node_modules/@progress/kendo-theme-default/dist/all.css',
+        './node_modules/@progress/kendo-theme-bootstrap/dist/all.css',
+        //'./node_modules/@progress/kendo-theme-material/dist/all.css',
+        './node_modules/@fullcalendar/common/main.css',
+        'resources/css/responsive.css',
+        'resources/css/custom-responsive.css',
+        'resources/css/fonts.css',
+        'resources/css/carousel.css',
+        'resources/css/app.css',
+        'resources/css/demo.css',
+        'resources/css/style.css',
+    ], 'public/css/all.css')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
