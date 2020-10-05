@@ -1,0 +1,102 @@
+@media only screen and (min-width: 1280px) {
+    /* For wide screens: */
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1279px) {
+    /* For desktop: */
+}
+
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+    /* For tablets: */
+    .item div {
+        width: calc(50% - 40px)!important;
+    }
+
+    .demo-app-main, .demo-app-sidebar {
+        width: calc(100% - 40px)!important;
+    }
+
+    .demo-app-sidebar {
+        margin-bottom: 20px!important;
+    }
+
+    footer ul li {
+        width: 50%!important;
+        margin: 10px 0;
+        height: unset!important;
+    }
+}
+
+@media only screen and (min-width: 260px) and (max-width: 519px) {
+    /* For mobile: */
+    .item div {
+        width: calc(50% - 40px)!important;
+    }
+
+    .demo-app-main, .demo-app-sidebar {
+        width: calc(100% - 40px)!important;
+    }
+
+    .demo-app-sidebar {
+        margin-bottom: 20px!important;
+    }
+
+    footer ul li {
+        width: 50%!important;
+        margin: 10px 0;
+        height: unset!important;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #scroll_to_top {
+        display: none!important;
+    }
+}
+
+@media only screen and (max-width: 259px) {
+    /* For watch: */
+    .item div {
+        width: calc(50% - 40px)!important;
+    }
+
+    .demo-app-main, .demo-app-sidebar {
+        width: calc(100% - 40px)!important;
+    }
+
+    .demo-app-sidebar {
+        margin-bottom: 20px!important;
+    }
+
+    footer ul li {
+        width: 50%!important;
+        margin: 10px 0;
+        height: unset!important;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #scroll_to_top {
+        display: none!important;
+    }
+}
